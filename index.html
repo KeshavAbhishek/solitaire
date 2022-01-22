@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="makeup.css">
+    <title>Solitaire</title>
+</head>
+<body>
+    <div class="container">
+        <div id="dealerPlayerLabelFrame">
+            <div class="positioner" id="dealerLabel">Dealer</div>
+            <div class="positioner" id="playerLabel">Player</div>
+        </div>
+        <div id="dealerPlayerCardsFrame">
+            <div class="resizeDiv" id="dealerCards"></div>
+            <div class="resizeDiv" id="playerCards"></div>
+        </div>
+        <div id="shuffleGetCardsFrame">
+            <button class="btn" id="shuffleCardsButton" onclick="shuffleCards()">Shuffle</button>
+            <button class="btn" id="getCardsButton" onclick="getCards()">Get Cards</button>
+        </div>
+    </div>
+</body>
+<script src="function.js"></script>
+</html>
+
+<!-- git init;git remote add origin git@github.com:KeshavAbhishek/solitaire.git;git add .;git commit -am 'Card Game';git push -u origin master-->

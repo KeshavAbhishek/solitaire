@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    user-select: none;
+    -webkit-user-drag: none;
+    background: green;
+}
+
+p, span{
+    cursor: text;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid transparent;
+    padding: 5%;
+}
+
+#dealerPlayerLabelFrame{
+    border: 1px dashed transparent;
+    width: 90%;
+    padding: 1%;
+    align-items: center;
+    position: relative;
+}
+
+.positioner:nth-child(1){
+    position: absolute;
+    right: 1%;
+}
+
+.positioner{
+    font-size: 2vw;
+    font-weight: bolder;
+    color: black;
+}
+
+#dealerPlayerCardsFrame{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.resizeDiv{
+    width: 24vw;
+    height: 34.833091436865026vw;
+    margin: 2%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.resizeDiv:nth-child(1){background-image: url(cards/14_of_hearts.png);}
+.resizeDiv:nth-child(2){background-image: url(cards/14_of_diamonds.png);}
+
+#shuffleGetCardsFrame{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: row;
+}
+
+.btn{
+    color: white;
+    background: linear-gradient(135deg, crimson, red, purple);
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    width: 20vw;
+    font-size: 2vw;
+    padding: 1% 0;
+}
+
+.btn:nth-child(1){
+    box-shadow: -3px 3px 0 #000;
+}
+
+.btn:nth-child(2){
+    box-shadow: 3px 3px 0 black;
+}
