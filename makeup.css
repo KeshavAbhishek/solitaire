@@ -63,8 +63,8 @@ body{
     cursor: pointer;
 }
 
-.resizeDiv:nth-child(1){background-image: url(cards/14_of_hearts.png);}
-.resizeDiv:nth-child(2){background-image: url(cards/14_of_diamonds.png);}
+/* .resizeDiv:nth-child(1){background-image: url(cards/14_of_hearts.png);}
+.resizeDiv:nth-child(2){background-image: url(cards/14_of_diamonds.png);} */
 
 #shuffleGetCardsFrame{
     display: flex;
